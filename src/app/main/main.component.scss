@@ -1,0 +1,306 @@
+.main{
+  /*RECOMMENDATION*/
+  .recommendation{
+    position: relative;
+    bottom: 142px;
+    .recommendation-column{
+      display: flex;
+      margin: 0 -15px;
+      .recommendation-item{
+        padding: 0 15px;
+
+        .item-text{
+          position: relative;
+          max-width: 350px;
+          width: 100%;
+          bottom: 94px;
+          padding: 21px 20px;
+          background: rgba(122, 102, 204, .7);
+          border-radius: 20px 0;
+
+          p{
+            font-size: 16px;
+            font-weight: 500;
+            font-family: Poppins, sans-serif;
+            line-height: 24px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  /*BRIGHT-LIGHTS*/
+  .bright-lights{
+    .bring-lights-body{
+      .bring-lights-title{
+        display: flex;
+        align-items: center;
+
+        .lights-img{
+          margin: 0 30px 0 0;
+        }
+
+        .lights-title{
+          font-size: 48px;
+          font-weight: 700;
+          font-family: Poppins, sans-serif;
+          line-height: calc(72/48*100%);
+
+          color: white;
+        }
+      }
+      .bring-lights-container{
+        display: grid;
+        grid-template-columns: 665px 445px;
+
+        .bring-lights-info{
+          .bring-lights-text{
+            padding: 60px 125px 61px 0;
+
+            font-size: 16px;
+            font-weight: 400;
+            font-family: Poppins, sans-serif;
+
+            line-height: 24px;
+
+            color: white;
+            opacity: .7;
+          }
+
+          .bring-lights-popular{
+            display: flex;
+            .popular-genre{
+              .genre{
+                display: flex;
+                align-items: center;
+
+                margin: 0 0 33px 0;
+
+                .genre-text{
+                  font-size: 18px;
+                  font-family: Poppins, sans-serif;
+                  font-weight: 600;
+                  line-height: 27px;
+
+                  color: white;
+
+                  margin: 0 0 0 20px;
+                }
+              }
+            }
+            .right{
+              margin: 0 0 0 40px;
+            }
+          }
+        }
+        .bring-lights-img{
+          max-width: 445px;
+          width: 100%;
+          position: relative;
+
+          .first-img{
+            position: absolute;
+            top: 0;
+
+            z-index: 100;
+          }
+          .second-img{
+            position: absolute;
+            top: 66px;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+  /*MAINSTREAM MUSIC*/
+  .mainstream-music{
+    .mainstream-music-body{
+      display: grid;
+      grid-template-columns: 60% 40%;
+      border: 1px solid white;
+      border-radius: 30px 0;
+      margin: 236px 0 0 0;
+
+      .mainstream-music-text{
+        .mainstream-music-item{
+          position: relative;
+          padding: 50px 60px 50px 80px;
+
+          & > .music-text, .music-line, .music-link:not(:last-child){
+            margin: 0 0 25px 0;
+          }
+
+          .music-comma{
+            position: absolute;
+          }
+          .music-text{
+            font-size: 18px;
+            font-family: Poppins, sans-serif;
+            font-weight: 400;
+            line-height: 27px;
+
+            color: white;
+          }
+          .music-line{
+            color: white;
+            opacity: .6;
+          }
+          .music-link{
+            font-size: 18px;
+            font-weight: 700;
+            font-family: Poppins, sans-serif;
+            line-height: 27px;
+
+            color: #7A66CC;
+          }
+        }
+      }
+      .mainstream-music-img{
+        position: relative;
+        .music-img{
+          position: absolute;
+          top: -43.5px;
+        }
+      }
+    }
+  }
+
+  .last-track-body{
+    display: flex;
+    margin: 285px 0 0 0;
+
+    .last-track-popular{
+      width: 100%;
+      padding: 0 0 0 50px;
+      .last-track-title{
+        display: flex;
+        align-items: center;
+
+        .last-track-text{
+          font-size: 48px;
+          font-weight: 700;
+          font-family: Poppins, sans-serif;
+          line-height: 72px;
+
+          color: white;
+
+          padding: 0 0 0 30px;
+        }
+      }
+      .last-track__audio{
+        display: flex;
+        align-items: center;
+
+        margin: 62px 0 0 0;
+
+        .audio-line{
+          max-width: 317px;
+          width: 100%;
+          height: 6px;
+
+          margin: 0 47px 0 45px;
+        }
+        .audio-timer{
+          font-size: 18px;
+          font-weight: 500;
+          font-family: Poppins, sans-serif;
+          line-height: 27px;
+
+          color: white;
+        }
+      }
+      .last-track-top{
+        padding: 50px 0 0 0;
+
+        & > *:not(:last-child){
+          padding: 0 0 20px 0;
+        }
+        .top-text{
+          display: flex;
+          align-items: baseline;
+          font-size: 18px;
+          font-weight: 400;
+          font-family: Poppins, sans-serif;
+          line-height: 27px;
+
+          color: white;
+          .text-number{
+            font-size: 14px;
+            font-weight: 700;
+            font-family: Poppins, sans-serif;
+            line-height: 21px;
+
+            padding: 0 20px 0 0;
+
+            color: white;
+            opacity: .5;
+          }
+        }
+        .purple{
+          font-size: 18px;
+          font-weight: 600;
+          font-family: Poppins, sans-serif;
+          line-height: 27px;
+
+          color: #7A66CC;
+
+        }
+      }
+      .last-track-follow{
+        display: flex;
+
+        padding: 50px 0 0 0;
+
+        .follow-title{
+          font-size: 24px;
+          font-weight: 600;
+          font-family: Poppins, sans-serif;
+
+          line-height: 36px;
+
+          padding: 0 40px 0 0;
+
+          color: white;
+        }
+        .follow-img{
+          display: flex;
+          align-items: center;
+          .music-platform-text{
+            font-size: 14px;
+            font-weight: 600;
+            font-family: Poppins, sans-serif;
+
+            padding: 0 0 0 10px;
+
+            line-height: 21px;
+
+            color: white;
+
+          }
+        }
+        & > div:not(:last-child){
+          padding: 0 30px 0 0;
+        }
+      }
+    }
+  }
+  .mainstage{
+    padding: 180px 0 0 0;
+    .mainstage-body{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 30px;
+      .mainstage-column{
+        .mainstage-item-f{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-column-gap: 30px;
+        }
+        .mainstage-item-s{
+          margin: 30px 0 0 0;
+        }
+      }
+    }
+  }
+}
